@@ -1,0 +1,30 @@
+/*首页导航 B*/
+.nav{
+	height:77px;
+	background-color:#fff;
+}
+.nav .nav_c{
+	height:77px;
+	/*background-color:red;*/
+}
+.nav .nav_c li{
+	float:left;
+	line-height: 77px;
+	/*height:77px;*/
+	/*注意height要放到font下面，或者放到font下面*/
+	font:normal normal 18px/77px "微软雅黑";
+	margin-right: 25px;
+
+}
+.nav .nav_c li a{
+	color:#666;
+
+} 
+.nav .nav_c li a:hover{
+	color:red;
+}
+.nav .nav_c .cRed{
+	/*text-decoration: underline;*/
+	border-bottom:1px solid red ;
+}
+/*首页导航 E*/
