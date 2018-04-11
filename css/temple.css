@@ -1,0 +1,210 @@
+/*
+* @Author: Beibei
+* @Date:   2018-04-10 17:34:33
+* @Last Modified by:   Beibei
+* @Last Modified time: 2018-04-10 20:51:29
+*/
+.center{
+	width: 1000px;
+	/*块级元素居中设置*/
+	margin: 0 auto;
+
+}
+.fz14{
+	fot-size:14px;
+
+}
+.cRed{
+	color:#ff3232;
+
+}
+/* 顶部B */
+.top{
+	height: 47px;
+	background-color: #e9e8e8;
+}
+
+.top .top_c{
+	height: 47px;
+	/* 将行间距改为行高可以让中间的内容居中 */
+	line-height:47px;
+}
+/* 顶部E */
+/* logo B */
+.logo{
+	height: 99px;
+	background-color:#c70201; 
+}
+.logo .l_c{
+	height: 99px;
+	/* line-height: 99px; */
+}
+.logo .l_left h1 a{
+	/* 行内块元素 */
+	display: inline-block;
+	width: 221px;
+	height:97px;
+	background-image: url(../images/logo.png);
+	/* 规定首行文本的缩进 */
+	text-indent: -9999px;
+
+}
+
+.logo .l_center {
+	width: 296px;
+	height: 28px;
+	background-color: #fff;
+	padding: 1px;
+	margin-top: 34px;
+	margin-left: 70px;
+	border-radius: 5px;
+	outline:none;
+
+
+}
+
+.logo .l_center .txt{
+	width:230px;
+	height:24px;
+	outline:none;
+	border-radius: 5px 0px 0px 5px;
+}
+.logo .l_center .btn{
+	width: 62px;
+	height: 28px;
+	background-color: #c70202;
+	outline:none;
+	color: #fff;
+	border-radius: 0px 5px 5px 0px;
+
+}
+.logo .l_right{
+	margin-top:35px;
+
+} 
+.logo .l_right li{
+	float:left;
+	height:30px;
+	line-height: 30px;
+	margin-left:20px;
+}
+.logo .l_right a{
+	color:#fff;
+}
+.logo .l_right input{
+	width:56px;
+	height:30px;
+	font-size :14px;
+}
+.logo .l_right li b{
+	display:inline-block; 
+	width:24px;
+	height:20px;
+	background: url(../images/sprite.png);
+	vertical-align: middle;
+}
+.logo .l_right .sina{
+	background-position: 0px -27px;
+
+}
+
+
+/* logo E */
+/*内容 B*/
+
+
+/*内容  E*/
+/*foot B*/
+/*两个div 可以控制边框*/
+.foot{
+	height:273px;
+	padding:10px;
+	background-color: #2f2f2f;
+}
+.foot .f_border{
+	height:273px;
+	/*background-color: red;*/
+	border:1px solid #ffd283;
+	position:relative;
+}
+.foot .f_border b{
+	position:absolute;
+	width:17px;
+	height:17px;
+	background:url(../images/circle.png);
+	/*background-color :red;*/
+}
+.foot .f_border .b1{
+	top:-1px;
+	left:-1px;
+	background-position: right bottom;
+
+}
+.foot .f_border .b2{
+	top:-1px;
+	right:-1px;
+	background-position: left bottom;
+
+}
+.foot .f_border .b3{
+	bottom:-1px;
+	left:-1px;
+	background-position: right top;
+
+}
+.foot .f_border .b4{
+	bottom :-1px;
+	right:-1px;
+	background-position: left top;
+
+}
+
+.foot .f_left{
+	margin-top: 55px;
+	color:#cccccc;
+} 
+.foot .f_left li{
+	/*文字在这一行居中*/
+	height:33px;
+	line-height:33px;
+}
+.foot .f_right{
+	margin-top:34px;
+}
+.foot .f_right li{
+	/*控制左浮动*/
+	float:left;
+	width:105px;
+	height:100px;
+	/*background-color:blue;*/
+/*控制每个list之间有距离。*/
+	margin-left:20px;
+}
+.foot .f_right li a{
+	display:inline-block;
+	color:#666666; 
+	text-align:center;
+}
+.foot .f_right li s{
+	margin-bottom:10px;
+	display:inline-block;
+	width:105px;
+	height:105px;
+	background:url(../images/sprite.png ) no-repeat -327px 0;
+}
+.foot .f_right .s2{
+	background-position:-327px -121px;
+}
+.foot .f_right .s3{
+	background-position:-327px -242px;
+}
+.foot .f_right .s4{
+	background-position:-327px -363px;
+}
+	
+
+
+
+
+/*-327 -121*/
+/*foot E*/
